@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+    background-image: black;
+    background-image: url(imagens/riojacare.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgb(0, 146, 0), rgb(0, 89, 0), rgb(2, 14, 1));
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 2px 2px 4px black;
+}
+
+header > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: rgb(0, 61, 0);
+    background-color: rgba(0, 186, 108, 0.804);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+}
+
+main {
+    max-width: 500px;
+    height: 97vh;
+    background-color: white;
+    text-align: justify;
+    padding: 15px;
+    margin: 0px auto 10px auto;
+
+}
+
+footer {
+    background-color: rgba(0, 38, 0, 0.771);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    padding: 3px;
+}
