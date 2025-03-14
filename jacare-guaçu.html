@@ -10,8 +10,15 @@
 <body>
     <header>
         <h1>Rio Jacaré-Guaçu</h1>
-        <p>Veja as principais informações sobre o rio Jacaré-Guaçu</p>
+        <p>Principais informações sobre o rio Jacaré-Guaçu</p>
     </header>
+    
+    <nav>
+        <a href="index.html" target="_self">Home</a>
+        <a href="mogi-guaçu.html" target="_self">Rio Mogi</a>
+        <a href="equipamentos.html" target="_self">Equipamentos</a>
+        <a href="curiosidades.html" target="_self">Curiosidades</a>
+    </nav>
 
     <main>
         <section>
@@ -20,37 +27,36 @@
             <p>O rio desempenha um papel fundamental na irrigação agrícola e no abastecimento de cidades próximas. Suas águas abrigam uma grande diversidade de espécies de peixes, tornando-o um excelente local para a pesca esportiva.</p>
         </section>
 
-        <h2>Principais Peixes e Suas Características</h2>
-
-        <div class="peixe">
-            <h3>Lambari</h3>
-            <p>O lambari é um peixe pequeno, muito apreciado na pesca esportiva e também utilizado como isca para espécies maiores. Ele se alimenta de insetos e pequenos crustáceos.</p>
-            <p><strong>Melhores iscas:</strong> Minhoca, massinha e pequenos insetos.</p>
-            <picture>
-                <source media="(max-width: 650px)" srcset="imagens/lambari-pq.jpg">
-                <img src="imagens/lambari.jpg" alt="Lambari">
+        <section>
+            <h2>Principais Peixes</h2>
+            <div class="peixe">
+                <h3>Lambari</h3>
+                <p>O lambari é um peixe pequeno, muito apreciado na pesca esportiva e também utilizado como isca para espécies maiores. Ele se alimenta de insetos e pequenos crustáceos.</p>
+                <picture>
+                    <source media="(max-width: 650px)" srcset="imagens/lambari-pq.jpg" class="img-pq">
+                    <img src="imagens/lambari.jpg" alt="Lambari" class="imagem">
+                </picture>
+                <p><strong class="vermelho">Melhores iscas:</strong> Minhoca, massinha e pequenos insetos.</p>
+            </div>
+            <div class="peixe">
+                <h3>Lambarola</h3>
+                <p>Semelhante ao lambari, o lambarola é um peixe de pequeno porte que habita águas calmas. É muito utilizado como isca viva para capturar predadores maiores.</p>
+                <picture>
+                    <source media="(max-width: 650px)" srcset="imagens/lambarola-pq.jpg" class="img-pq">
+                    <img src="imagens/lambarola.jpg" alt="Lambarola" class="imagem">
+                </picture>
+                <p><strong class="vermelho">Melhores iscas:</strong> Minhoca, massinha e larvas.</p>
+            </div>
+            <div class="peixe">
+                <h3>Piapara</h3>
+                <p>A piapara é um peixe onívoro que se alimenta principalmente de frutos e sementes. É valorizado tanto na pesca esportiva quanto para consumo.</p>
+                <source media="(max-width: 650px)" srcset="imagens/piapara-pq.jpg" class="img-pq">
+                <img src="imagens/piapara.jpg" alt="Piapara" class="imagem">
             </picture>
-        </div>
-
-        <div class="peixe">
-            <h3>Lambarola</h3>
-            <p>Semelhante ao lambari, o lambarola é um peixe de pequeno porte que habita águas calmas. É muito utilizado como isca viva para capturar predadores maiores.</p>
-            <p><strong>Melhores iscas:</strong> Minhoca, massinha e larvas.</p>
+            <p><strong class="vermelho">Melhores iscas:</strong> Milho, massa e minhoca.</p>
             <picture>
-                <source media="(max-width: 650px)" srcset="imagens/lambarola-pq.jpg">
-                <img src="imagens/lambarola.jpg" alt="Lambarola">
-            </picture>
         </div>
-
-        <div class="peixe">
-            <h3>Piapara</h3>
-            <p>A piapara é um peixe onívoro que se alimenta principalmente de frutos e sementes. É valorizado tanto na pesca esportiva quanto para consumo.</p>
-            <p><strong>Melhores iscas:</strong> Milho, massa e minhoca.</p>
-            <picture>
-                <source media="(max-width: 650px)" srcset="imagens/piapara-pq.jpg">
-                <img src="imagens/piapara.jpg" alt="Piapara">
-            </picture>
-        </div>
+        </section>
 
     </main>
 </body>
